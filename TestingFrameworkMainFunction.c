@@ -4,7 +4,7 @@
 #include "TestCaseStructure.h"
 
 int is_prime(int);
-int run_test_case(char *, Test[], int (*fun)(int));
+int run_test_case(Test[], int (*fun)(int));
 
 void main()
 {
@@ -19,7 +19,8 @@ void main()
  		{735688, 0}
 	};
 	
-	run_test_case("Prime Program", test_cases, is_prime);
+	run_test_case(test_cases, is_prime);
 
 
 }
+
