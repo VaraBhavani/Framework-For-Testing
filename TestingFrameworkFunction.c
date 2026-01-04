@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "TestCaseStructure.h"
 
-void run_test_case(char *test_name, Test test_cases[], int (*fun)(int))
+void run_test_case(Test test_cases[], int (*fun)(int))
 {
 	int all_passed = 1;
 	int counter;
@@ -23,3 +23,4 @@ void run_test_case(char *test_name, Test test_cases[], int (*fun)(int))
 	}
 
 }
+
