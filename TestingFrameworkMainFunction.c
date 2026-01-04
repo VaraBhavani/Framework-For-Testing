@@ -1,4 +1,4 @@
-// main Function testing framework function.
+// main Function for testing framework.
 
 #include <stdio.h>
 #include "TestCaseStructure.h"
@@ -20,5 +20,6 @@ void main()
 	};
 	
 	run_test_case("Prime Program", test_cases, is_prime);
+
 
 }
