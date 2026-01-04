@@ -1,4 +1,4 @@
-// Frame work for Testing a Function with input variables and expected results.
+// Frame work for Testing a Function with input variables, expected results and function.
 
 #include <stdio.h>
 #include "TestCaseStructure.h"
@@ -21,4 +21,5 @@ void run_test_case(char *test_name, Test test_cases[], int (*fun)(int))
 	{
 		printf("All test cases passed. ");
 	}
+
 }
